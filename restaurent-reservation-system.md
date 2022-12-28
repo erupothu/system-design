@@ -15,8 +15,8 @@
       * restaurentName, Address, phone, bussinessHours, availableTables, seats
 5. __GET__ List restaurents by search by name  
       * restaurentId, restaurentName, Address, phone, bussinessHours, availableTables, seats
-6. __POST__ book table
-      * customerId, restaurentId, tableNo, seats
+6. __POST__ reserve a table
+      * customerId, restaurentId, tableNo, seats, partySize, note, timeslot
 
 ##### Database Design
 
@@ -26,6 +26,11 @@
 2. m_customer
     * id, name, phone, email, prefences, location
 
+3. m_reservation
+     * id, customerId, restaurentId, timeslot, partysize, note
+
 ##### Architecture Design
 
 __frontend(mobile, web) -> api-gateway -> Discovery-service (load balancer) -> (service1a, service1b .... service1n) -> cache -> database__
+
+
