@@ -26,6 +26,10 @@
 6. Redirect - __GET__
     * shortUrl -> redirect LongUrl
 
+##### Database Schema design
+1. m_url
+      * id, userId, longUrl, shortUrl, status
+
 ##### Architecture Design
 ## Frontend(web, mobile, tab) -> Discovery Service (load balancing) -> (service1a, service1b, ... service1N) -> Cache(Reddis) -> NoSql Database
 
