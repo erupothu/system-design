@@ -19,3 +19,30 @@
 
 * Architecture Design
 ![Architecture Design](Chat_System_design.png)
+
+
+* Application Design
+* Frontend
+ * User App
+ * User App Upload Image
+* Backend
+ * User Service
+ * Last Seen service
+ * Group Service
+ * Message Service
+ * Asset Service
+ * Analytics Service
+ * Group Message hander
+ * Websocket Manager
+ * Websocket handler1
+ * Websocket handler2
+ * Websocket handle3
+
+* Other Servers
+ * CDN
+ * S3
+ * Cassandra
+ * Redis
+ * Kafka
+ * MySql
+
