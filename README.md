@@ -48,7 +48,12 @@
     * Azure Cosmos DB
     * Google Firestore
     * CouchDB
-
+* Graph DB
+    * OrientDB
+    * Neo4J
+    * GraphQL
+    * Amazon Neptune
+    * DGraph
 
 ### IDE
 * Eclipse
