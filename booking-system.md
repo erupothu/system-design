@@ -23,4 +23,4 @@
 * _Book UI -> LD -> (Booking Service, payment Service) -> MySql -> Archival service -> kafka ->. Notification Service
 * _Bookings UI -> LB -> Booking Management svc --> (redis, cassendra) -> kafka -> Hadoop
 * 
-[System Design](Airbnb+System+Design.png)
+[Booking System Architecture Design](Airbnb+System+Design.png)
