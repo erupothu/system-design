@@ -24,3 +24,5 @@
 * _Bookings UI -> LB -> Booking Management svc --> (redis, cassendra) -> kafka -> Hadoop
 * 
 [Booking System Architecture Design](Airbnb+System+Design.png)
+
+<img src="Airbnb+System+Design.png" alt="MarineGEO circle logo" style="height: 500px; width:900px;"/>
