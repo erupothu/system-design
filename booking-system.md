@@ -26,3 +26,30 @@
 ![Booking System Architecture Design](Airbnb+System+Design.png)
 
 ``` <img src="Airbnb+System+Design.png" alt="MarineGEO circle logo" style="height: 500px; width:900px;"/> ```
+
+#### API Design
+* Hotel
+ * __POST__ /hotel
+ * __GET__ /hotel/:id
+ * __PUT__ /hotel/:id
+ * __PUT__ /hotel/:id/rooms/:id
+
+* Booking
+ * __POST__ /book userId, roomId, quantity, startDate, endDate
+ * 
+ * 
+
+#### Database Design
+* Hotel
+ * Hotel : id, name, location, description, original_image, display_image, is_active
+ * hotel_fecility: id, hotel_id, facility_id, is_active
+ * roooms: id, hotel_id, display_name, is_active, quantity, price_min, price_max
+ * rooms_facilities: id room_id, facility_id, is_active
+ * facilities: id, display_name
+ * locality: id, city_id, state_id, country_id, zip_code, is_active
+ * Audit: 
+* Booking
+ * available_rooms: room_id, date, initial_qty, available_qty
+ * booking: booking_id, room_id, user_id, start_date, end_date,invoice_id, status(reserved, booked, canceled, completed), no_rooms
+ * 
+
