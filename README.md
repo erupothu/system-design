@@ -35,12 +35,14 @@
     * Lucine
     * Solr
     * Splunk
+    * Fuzzy
 * Column Store NoSql DB
     * Cassandra
     * Hbase
     * Amazon Keyspaces
     * Azure Cosmos DB
     * Google Cloud BigTable
+    * Open TS DB
 * Document NoSql DB
     * Mongo DB
     * Amazon DynamoDB
@@ -60,34 +62,74 @@
 * InteliJ
 * Vs Code
 
+### Virtual machines
+* Aws EC2
+* Google Computing Machine
+* Azure Virtual Machine
 
+#### Storage Services
+* AWS S3
+* Azure Blob storage
+* Google cloud storage
+* One Drive
+* Google Drive
+* Dropbox
 
-#### Cachine
-* Redis
-* MemCache
-* Ehcache
+### Messaging service
+* Aws SQS
+* Apache Kafka
+* RabbitMQ
+* ActiveMQ
+* Azue Queue Storage
+* Google Cloud pub/sub
 
-#### Storage (blob data)
-* Amazon s3
-* 
+### Notification Services
+* Amazon SNS
+* Google Firebase Cloud Messaging
+* Airship
+* Drift
+* One SignalPush
 
-#### Content Delivery Network CDN
-* Amazon CDN
-* Edge
-
-#### Text Search engine
-* lucine
-* Elastic Search
-* Solar
-* Fuzzy
-
-#### Metrics Tracking System
+#### monitoring Services
 * Grafana
-* Prometheus
-* Influx DB
-* Open TS DB
+* Dynatrace
+* DataDog
+* AppDynamics
+* new relic
+* Open Telemetry
 
-#### Analyics and Reports (OLAPP
+#### Container Orchestration Microservices
+* Docker, Docker swarm, Docker Compose
+* Kubernates
+* Openshift
+* Portainer
+* Saltstack
+* Amazon EKS
+* Google Kubernate Engine (GKE)
+* Azure Kubernates Service (AKS)
+
+### CICD
+* Jenkins
+* Aws Code pipeline
+* Circle CI
+* Gitlab CI
+* Team City
+
+#### Configuration Management services
+* Teraform
+* Ansible
+* Pippet
+* AWS Cloud Formation
+* Google Deployment Manager
+* Microsoft Bicep
+
+### Secret management service
+* Vault server
+* CyberArc
+* Secret server
+* Azure key Vault
+
+#### Analyics and Reports (OLAP)
 * Datawarehouse Hadoop 
 * spark
 
