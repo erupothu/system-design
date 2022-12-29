@@ -22,27 +22,29 @@
 
 
 * Application Design
+
 * Frontend
- * User App
- * User App Upload Image
+  * User App
+  * User App Upload Image
 * Backend
- * User Service
- * Last Seen service
- * Group Service
- * Message Service
- * Asset Service
- * Analytics Service
- * Group Message hander
- * Websocket Manager
- * Websocket handler1
- * Websocket handler2
- * Websocket handle3
+  * User Service
+  * Last Seen service
+  * Group Service
+  * Message Service
+  * Asset Service
+  * Analytics Service
+  * Group Message hander
+  * Websocket Manager
+  * Websocket handler1
+  * Websocket handler2
+  * Websocket handle3
 
 * Other Servers
- * CDN
- * S3
- * Cassandra
- * Redis
- * Kafka
- * MySql
+  * CDN
+  * S3
+  * Cassandra
+  * Redis
+  * Kafka
+  * MySql
+  * Hadoop Cluster
 
