@@ -22,7 +22,7 @@
 * _Search UI -> LB -> Search Service -> Elastic Search Server -> search consumer -> Kafka_
 * _Book UI -> LD -> (Booking Service, payment Service) -> MySql -> Archival service -> kafka ->. Notification Service
 * _Bookings UI -> LB -> Booking Management svc --> (redis, cassendra) -> kafka -> Hadoop
-* 
-[Booking System Architecture Design](Airbnb+System+Design.png)
 
-<img src="Airbnb+System+Design.png" alt="MarineGEO circle logo" style="height: 500px; width:900px;"/>
+![Booking System Architecture Design](Airbnb+System+Design.png)
+
+``` <img src="Airbnb+System+Design.png" alt="MarineGEO circle logo" style="height: 500px; width:900px;"/> ```
