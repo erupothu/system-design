@@ -1,4 +1,4 @@
-
+mobile
 ##### Functional Requirements
 * Hotel
   * Onboarding
